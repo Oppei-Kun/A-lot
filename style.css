@@ -1,0 +1,35 @@
+/* This is a CSS file for styling a simple webpage */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #ff00aa, #73ee00);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center the content vertically and horizontally */
+}
+
+.container{
+    border: 0.1cm solid #73ee00;
+    border-radius: 1cm;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+h1{
+    color: #ffeeb7;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px #000;
+}
+
+p{
+    color: #fffb04;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
